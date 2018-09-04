@@ -31,11 +31,8 @@ body {
 }
 
 #nav-div {
-    width: 40%;
-}
-
-#nav-icons-div {
-    width: 40%;
+    width: 60%;
+    text-align: center;
 }
 
 #hapa-girl-image {
@@ -43,8 +40,17 @@ body {
 }
 
 .nav-items {
+    color: black;
+    font-size: 1.17em;
     list-style: none;
     display: inline-block;
+    padding: 0px 20px;
+    margin-top: 15px;
+}
+
+.nav-items a {
+    color: black;
+    text-decoration: none;
 }
 
 .header-div {
@@ -53,8 +59,15 @@ body {
 }
 
 #nav-icons-div {
-    width: 20px;
-    background-color: black;
+    width: 20%;
+    text-align: center;
+    margin-top: 21px;
+}
+
+.nav-icons {
+    color: black;
+    font-size: 40px;
+    padding: 0px 20px;
 }
 
 #hero-image {
@@ -117,6 +130,13 @@ body {
     background-color: black;
 }
 
+#subscribe-input {
+    height: 30px;
+    width: 50px;
+    background-color: white;
+    color: black;
+}
+
 #main-footer-div {
     height: 62%;
     width: 100%;
@@ -157,4 +177,36 @@ body {
     width: 100%;
     background-color: black;
 }
+
+#social-icons-div {
+    text-align: center;
+}
+
+.social-icons {
+    color: #efbcbb;
+    font-size: 40px;
+    padding: 0px 40px;
+    margin-top: 55px;
+}
+
+
+/* Shop Page */
+.shop-items {
+    color: black;
+    font-size: 1.17em;
+    list-style: none;
+    padding: 15px 20px;
+}
+
+.shop-items a {
+    color: black;
+    text-decoration: none;
+}
+
+#shop-nav-div {
+    margin-top: 60px;
+}
+
+
+
 
