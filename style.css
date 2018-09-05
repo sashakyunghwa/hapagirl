@@ -46,6 +46,7 @@ body {
     display: inline-block;
     padding: 0px 20px;
     margin-top: 15px;
+    text-transform: uppercase;
 }
 
 .nav-items a {
@@ -191,11 +192,22 @@ body {
 
 
 /* Shop Page */
+#shop-outer-nav-div {
+    height: 20%;
+}
+
+#shop-links-div {
+    float: left;
+    text-align: center;
+    width: 13%;
+}
+
 .shop-items {
     color: black;
     font-size: 1.17em;
     list-style: none;
     padding: 15px 20px;
+    text-transform: uppercase;
 }
 
 .shop-items a {
@@ -204,7 +216,66 @@ body {
 }
 
 #shop-nav-div {
-    margin-top: 60px;
+    /* margin-top: 60px; */
+}
+#clothes-div {
+    display: inline-block;
+    width: 87%;
+}
+
+#row-one {
+    text-align: center;
+}
+
+/* .image-row-one {
+    width: 30%;
+    display: inline-block;
+    padding: 0px 15px;
+}
+
+.shirt-thumbnails-div {
+    display: inline-block;
+    width: 29%;
+    margin-left: 2%;
+    text-align: center;
+}
+
+.shirt-thumbnails {
+    display: inline-block;
+    width: 10%;
+    border-radius: 50%;
+} */
+
+/* testing code */
+
+.shirt-div {
+    display: inline-block;
+    width: 33%;
+}
+
+.image-row-one {
+    width: 85%;
+}
+
+.shirt-icons-div {
+    margin-top: 5%;
+}
+
+.shirt-icons {
+    display: inline-block;
+    width: 10%;
+    border-radius: 50%;
+}
+
+.clothing-title {
+    color: black;
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+
+.clothing-price {
+    color: black; 
+    font-size: 1.2em;
 }
 
 
