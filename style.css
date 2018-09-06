@@ -97,7 +97,18 @@ body {
     padding: 50px 0px;
 }
 
+#hapa-love-text {
+    font-size: 1.7em;
+    font-weight: bold;
+}
+
 /* Instagram Feed */
+#hapagirl-hashtag {
+    color: black;
+    text-align: center;
+    font-size: 2em;
+}
+
 #pixlee_widget_iframe3956a86c-3705-4da4-404e-f4a5af596c9f {
     max-width: 1200px;
 }
@@ -129,13 +140,39 @@ body {
     height: 23%;
     width: 100%;
     background-color: black;
+    text-align: center;
+}
+
+#hapa-div {
+    display: inline-block;
+}
+
+#subscribe-div {
+    display: inline-block;
+    margin-left: 100px;
 }
 
 #subscribe-input {
-    height: 30px;
-    width: 50px;
+    display: inline-block;
+    height: 50px;
+    width: 300px;
     background-color: white;
     color: black;
+}
+
+#subscribe-button-div {
+    display: inline-block;
+}
+
+#subscribe-button {
+    background-color: #efbcbb;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    font-size: 25px;
+    font-weight: bold;
+    height: 50px;
+    width: 200px;
 }
 
 #main-footer-div {
@@ -227,6 +264,10 @@ body {
     text-align: center;
 }
 
+#shop-main-div {
+    margin-bottom: 60px;
+}
+
 /* .image-row-one {
     width: 30%;
     display: inline-block;
@@ -251,6 +292,7 @@ body {
 .shirt-div {
     display: inline-block;
     width: 33%;
+    margin-bottom: 45px;
 }
 
 .image-row-one {
