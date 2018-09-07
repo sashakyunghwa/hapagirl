@@ -103,11 +103,25 @@ body {
 }
 
 /* Instagram Feed */
+#hashtag {
+    text-align: center;
+}
+
+#hashtag-image { 
+    width: 50px;
+}
+
 #hapagirl-hashtag {
     color: black;
     text-align: center;
-    font-size: 2em;
+    font-size: 60px;
+    display: inline-block;
 }
+
+/* #hapagirl-text {
+    font-size: 3em;
+    font-family: 'Jenna Sue';
+} */
 
 #pixlee_widget_iframe3956a86c-3705-4da4-404e-f4a5af596c9f {
     max-width: 1200px;
@@ -116,7 +130,7 @@ body {
 #pixlee_container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 50px 0;
+    /* padding: 0; */
 }
 
 #widget {
@@ -352,6 +366,17 @@ body {
     padding: 15px 0px;
     /* padding: 0;
     margin: 0; */
+}
+
+#coupon-div {
+    margin: auto;
+    margin-top: 50px;
+    width: 60%;
+}
+
+.coupon-image {
+    display: inline-block;
+    padding: 10px 0px;
 }
 
 
