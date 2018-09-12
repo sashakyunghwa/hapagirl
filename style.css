@@ -164,6 +164,11 @@ body {
 #subscribe-div {
     display: inline-block;
     margin-left: 100px;
+    vertical-align: top;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 0;
 }
 
 #subscribe-input {
@@ -172,6 +177,13 @@ body {
     width: 300px;
     background-color: white;
     color: black;
+    vertical-align: top;
+}
+
+input {
+    height: 100%;
+    width: 100%;
+    font-size: 2rem;
 }
 
 #subscribe-button-div {
@@ -309,7 +321,7 @@ body {
     margin-bottom: 45px;
 }
 
-.image-row-one {
+.image-row-one, .version-two-tee, .version-three-tee {
     width: 85%;
 }
 
@@ -321,6 +333,10 @@ body {
     display: inline-block;
     width: 10%;
     border-radius: 50%;
+}
+
+.hidden {
+    display: none;
 }
 
 .clothing-title {
