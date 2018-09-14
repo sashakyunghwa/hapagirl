@@ -171,7 +171,7 @@ body {
     font-size: 0;
 }
 
-#subscribe-input {
+#subscribe-input-div {
     display: inline-block;
     height: 50px;
     width: 300px;
@@ -180,7 +180,7 @@ body {
     vertical-align: top;
 }
 
-input {
+#subscribe-input {
     height: 100%;
     width: 100%;
     font-size: 2rem;
@@ -321,7 +321,7 @@ input {
     margin-bottom: 45px;
 }
 
-.image-row-one, .version-two-tee, .version-three-tee {
+.image-row-one {
     width: 85%;
 }
 
@@ -393,6 +393,69 @@ input {
 .coupon-image {
     display: inline-block;
     padding: 10px 0px;
+}
+
+/* Login Page */
+#account-div {
+    height: 65%;
+    text-align: center;
+}
+
+#login-div {
+    width: 35%;
+    height: 70%;
+    background-color: black;
+    display: inline-block;
+    margin-right: 50px;
+    /* float: left;  */
+    /* margin-left: 200px; */
+    vertical-align: top;
+}
+
+.account-header {
+    margin-top: 35px;
+    margin-bottom: 25px;
+}
+
+.account-input {
+    height: 45px;
+    width: 400px;
+    margin-bottom: 35px;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+}
+
+#login-button {
+    height: 55px;
+    width: 200px;
+    color: black;
+    background-color: #dd8f8f;
+    border: none;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#register-button {
+    height: 55px;
+    width: 250px;
+    color: black;
+    background-color: #dd8f8f;
+    border: none;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#create-account-div {
+    width: 35%;
+    height: 95%;
+    background-color: black;
+    display: inline-block;
+    /* float: right;
+    margin-right: 133px; */
 }
 
 
