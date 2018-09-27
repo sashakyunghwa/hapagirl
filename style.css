@@ -344,7 +344,29 @@ body {
     margin-top: 5%;
 }
 
+#heart-div p {
+    display: none;
+    color: #fff;
+    font-size: 11px;
+}
+
+#heart-div:hover p {
+    display: block;
+    background-color: #000;
+    border-radius: 5px;
+    width: 100px;
+    height: 24px;
+}
+
+.fa-user:hover {
+    color: #dd8f8f;
+}
+
 .fa-heart:hover {
+    color: #dd8f8f;
+}
+
+.fa-shopping-cart:hover {
     color: #dd8f8f;
 }
 
