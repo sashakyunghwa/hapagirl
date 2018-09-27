@@ -9,10 +9,36 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="js/instafeed.min.js"></script>
     <script src="js/custom.js"></script>
-    <script src="js/main.js"></script>
+    <script src="js/shop.js"></script>
     <title>Document</title>
 </head>
 <body>
+    <script>
+        window.fbAsyncInit = function() {
+    FB.init({
+      appId            : '432744030585514',
+      autoLogAppEvents : true,
+      xfbml            : true,
+      version          : 'v3.1'
+    });
+
+    FB.getLoginStatus(function(response) {
+        if (response.status === 'connected') {
+            document.getElementById('status').innerHTML = 'We are connected.';
+        } else if (response.status === 'not_authorized') {
+            document.getElementById('status').innerHTML = 'We are not logged in.'
+        }
+    });
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "https://connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));    
+    </script>
     <header id="header-section">
         <div id="outer-nav-div">
             <div id="logo-div" class="header-div">
@@ -40,6 +66,7 @@
             <div id="max-about-div">
                 <img id="hapa-girl-image-about-section" src="img/hapagirl.png" alt="Hapa Girl Logo">
                 <h3 class="body-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni voluptate atque voluptates doloremque facere, cum omnis sequi iusto quaerat nostrum quia praesentium illum neque impedit sunt ex? Nulla sapiente nostrum sit ut doloribus asperiores similique cum sunt, laborum deserunt molestias unde ullam explicabo maiores reprehenderit? Repellendus vero rerum ex quam reprehenderit. Porro blanditiis placeat cumque temporibus id eos iure quasi at ad aliquid omnis dicta quia quo, doloremque provident voluptates nulla vitae perspiciatis natus quam eius. Reiciendis facilis, ratione saepe mollitia exercitationem, ducimus eveniet ab illum magni itaque distinctio praesentium excepturi qui, iste perferendis libero obcaecati deleniti accusamus corrupti nesciunt repellendus. Ipsam sequi dolor porro veniam officia earum quaerat ullam? Sunt atque, nulla velit quae nisi veritatis aliquam! Accusantium magni nisi culpa voluptatibus itaque molestias nam corporis aliquid at suscipit saepe totam veniam maiores autem, doloremque earum repellendus eos aperiam ex deleniti vitae inventore, enim in. Praesentium nostrum porro dolorem necessitatibus perspiciatis cupiditate maxime quis qui ratione illo nesciunt ullam, aliquam est repudiandae. Molestias corrupti odio a laboriosam dolores! Ipsam distinctio saepe quidem rerum ipsum!</h3>
+                <div id="status"></div>
             </div>    
         </section>
         <section class="instagram section">
