@@ -1,18 +1,14 @@
 $(document).ready(function() {
 
-// Shop Page
+// Declare variables
 var shirtIcons = document.getElementsByClassName('shirt-icons');
-var versionOneTee = document.getElementById('version-one-tee');
-var versionTwoTee = document.getElementById('version-two-tee');
-var versionThreeTee = document.getElementById('version-three-tee');
  
 // Add event listeners
 for(i = 0; i < shirtIcons.length; i++){
     shirtIcons[i].addEventListener('click', shirtIconReplacesShirtImage);
 }
 
-});
-
+// Add functions
 function shirtIconReplacesShirtImage(){
     console.log('shirt icon clicked');
     var iconSource = this.src;
@@ -21,8 +17,13 @@ function shirtIconReplacesShirtImage(){
     this.src = newIconSource;
 }
 
-function checkWhichVersionTeePage(){
-    if()
-}
+});
 
-versionOneTee.addEventListener('click', );
+
+
+
+
+
+
+
+

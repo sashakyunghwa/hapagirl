@@ -6,7 +6,8 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>   
-    <script src="js/main.js"></script>
+    <script src="js/shop.js"></script>
+    <script src="js/login.js"></script>
     <title>Document</title>
 </head>
 <body>
@@ -33,15 +34,15 @@
                 <h1 class="account-header">Have a Hapa account?</h1>
                 <input class="account-input" type="text" name="email" id="email" placeholder="Email">
                 <input class="account-input" type="text" name="password" id="password" placeholder="Password">
-                <button id="login-button" onClick="location.href='index.html';">Log In</button>
+                <a href="account.html"><button id="login-button">Log In</button></a> 
              </div>
              <div id="create-account-div">
                  <h1 class="account-header">Want a Hapa account?</h1>
-                 <input class="account-input" type="text" name="first-name" id="first-name" placeholder="First Name">
-                 <input class="account-input" type="text" name="last-name" id="last-name" placeholder="Last Name">
-                 <input class="account-input" type="text" name="email" id="email" placeholder="Email">
-                 <input class="account-input" type="text" name="password" id="password" placeholder="Password">
-                 <button id="register-button" onClick="location.href='index.html';">Create Account</button>
+                 <input class="account-input" type="text" name="first-name" class="first-name" placeholder="First Name">
+                 <input class="account-input" type="text" name="last-name" class="last-name" placeholder="Last Name">
+                 <input class="account-input" type="text" name="email" id="email-register" placeholder="Email">
+                 <input class="account-input" type="text" name="password" id="password-register" placeholder="Password">
+                 <a href="account.html"><button id="register-button">Create Account</button></a>  
              </div>
         </div>
         <div id="end-footer-div">

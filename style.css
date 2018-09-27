@@ -281,9 +281,81 @@ body {
 #shop-nav-div {
     /* margin-top: 60px; */
 }
+
 #clothes-div {
     display: inline-block;
     width: 87%;
+}
+
+#big-thumbnail-div {
+    width: 50%;
+    float: left;
+}
+
+#big-thumbnail {
+    width: 75%;
+    float: right;
+}
+
+#side-checkout-div {
+    display: inline-block;
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+
+#checkout-label-div {
+    width: 100%;
+    text-align: center;
+    color: black;
+}
+
+#clothes-size-div {
+    text-align: center;
+    margin-top: 5%;
+}
+
+.size-box {
+    width: 50px;
+    height: 50px;
+    border: 3px solid black;
+    display: inline-block;
+    color: black;
+    text-align: center;
+    background-color: #dd8f8f;
+}
+
+#cart-button-div {
+    text-align: center;
+    margin-top: 5%;
+}
+
+#cart-button {
+    background-color: black;
+    border: none;
+    color: white;
+    height: 60px;
+    width: 240px;
+    font-size: 26px;
+    text-transform: uppercase;
+}
+
+#heart-div {
+    margin-top: 5%;
+}
+
+.fa-heart:hover {
+    color: #dd8f8f;
+}
+
+#fit-details-div {
+    margin-top: 5%;
+}
+
+#fit-details {
+    color: black;
+    text-align: center;
+    line-height: 1.6;
 }
 
 #row {
