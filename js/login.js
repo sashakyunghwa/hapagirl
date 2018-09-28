@@ -3,15 +3,22 @@ $(document).ready(function() {
 // Declare variables
 var loginButton = document.getElementById('login-button');
 var registerButton = document.getElementById('register-button');
-var loginEmail = document.getElementById('login-email').value;
-var loginPassword = document.getElementById('login-password').value;
+
     
 // Add event listeners   
 loginButton.addEventListener('click', checkIfLoginMatchesObjPeople);
-registerButton.addEventListener('click', addNewUserToObjPeople);
-    
+registerButton.addEventListener('click', addNewUserToObjPeople); 
+
+});
+// Document.ready ends
+
+var emailValid = null;
+var objPeople = [];
+
 // Add functions    
 function checkIfLoginMatchesObjPeople(){
+    var loginEmail = document.getElementById('login-email').value;
+    var loginPassword = document.getElementById('login-password').value;
     for(i = 0; i < objPeople.length; i++) {
         if(loginEmail == objPeople[i].email && loginPassword == objPeople[i].password) {
             console.log(email + ' is logged in!');
@@ -25,13 +32,7 @@ function checkIfLoginMatchesObjPeople(){
             emailValid = true;
         }
     }   
-}   
-
-});
-// Document.ready ends
-
-var emailValid = null;
-var objPeople = [];
+}  
         
 function addNewUserToObjPeople(){
     // for(i = 0; i < objPeople.length; i++) {

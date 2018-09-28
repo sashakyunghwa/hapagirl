@@ -1,41 +1,29 @@
-<html lang="en">
+    <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script id="twitter-wjs" type="text/javascript" src="//platform.twitter.com/widgets.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="crossorigin="anonymous"></script>
     <title>Document</title>
-    <script>  
-            
-    
-            window.twttr = (function(d, s, id) {
-            var js, fjs = d.getElementsByTagName(s)[0],
-                t = window.twttr || {};
-            if (d.getElementById(id)) return t;
-            js = d.createElement(s);
-            js.id = id;
-            js.src = "https://platform.twitter.com/widgets.js";
-            fjs.parentNode.insertBefore(js, fjs);
-    
-            t._e = [];
-            t.ready = function(f) {
-                t._e.push(f);
-            };
-    
-            return t;
-            }(document, "script", "twitter-wjs"));
-            
-    </script>
-    <script>
-        
-    </script>
 </head>
 <body>
-        <a class="twitter-timeline"
-        href="https://twitter.com/sashakyunghwa" >
-        Tweets by @sashakyunghwa
-        </a>
+        <!-- <div id="retweet">
+            <script>
+                twttr.widgets.createTweet('1045436308552802304', 
+                document.getElementById('retweet'),
+                // { 
+                //     theme: 'dark'}
+                ).then(function(){
+                    $('#retweet').append('<a href="https://twitter.com/intent/retweet?tweet_id=1045436308552802304"><button id="retweet-button">Retweet</button></a>')
+
+                });    
+
+            </script>
+        </div>  -->
+
+        
 </body>
 </html>
-
 
 

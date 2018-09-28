@@ -8,6 +8,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>   
     <script src="js/shop.js"></script>
     <script src="js/login.js"></script>
+    <script src="js/facebook.js"></script>
     <title>Document</title>
 </head>
 <body>
@@ -34,7 +35,7 @@
                 <h1 class="account-header">Have a Hapa account?</h1>
                 <input class="account-input" type="text" name="email" id="login-email" placeholder="Email">
                 <input class="account-input" type="text" name="password" id="login-password" placeholder="Password">
-                <a href="account.html"><button id="login-button">Log In</button></a> 
+                <button id="login-button">Log In</button>
              </div>
              <div id="create-account-div">
                  <h1 class="account-header">Want a Hapa account?</h1>
@@ -42,7 +43,11 @@
                  <input class="account-input" type="text" name="last-name" class="last-name" placeholder="Last Name">
                  <input class="account-input" type="text" name="email" id="register-email" placeholder="Email">
                  <input class="account-input" type="text" name="password" id="register-password" placeholder="Password">
-                 <a href="account.html"><button id="register-button">Create Account</button></a>  
+                 <button id="register-button">Create Account</button> 
+             </div>
+             <div>
+                    <fb:login-button scope="public_profile,email" onlogin="checkLoginState();">
+                        </fb:login-button>
              </div>
         </div>
         <div id="end-footer-div">
